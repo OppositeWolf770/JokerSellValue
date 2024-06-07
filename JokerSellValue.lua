@@ -3,6 +3,7 @@
 --- MOD_ID: JokerSellValue
 --- MOD_AUTHOR: [OppositeWolf770]
 --- MOD_DESCRIPTION: Makes all joker cards show their sell value in the hover text while they are in the Buffoon Pack
+--- PRIORITY: 100
 
 
 local generate_UIBox_ability_table_ref = Card.generate_UIBox_ability_table
