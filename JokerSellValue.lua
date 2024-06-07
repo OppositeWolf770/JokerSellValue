@@ -10,7 +10,7 @@ local generate_UIBox_ability_table_ref = Card.generate_UIBox_ability_table
 function Card:generate_UIBox_ability_table()
     local generate_UIBox_ability_table_val = generate_UIBox_ability_table_ref(self)
 
-    if self.area == G.pack_cards and self.ability and self.ability.set == 'Joker' then
+    if self.ability.set == 'Joker' and (self.area == G.I.CARDAREA[7] or self.area == G.pack_cards) then
         local main_text = generate_UIBox_ability_table_val.main
         main_text[#main_text + 1] = {
             {
