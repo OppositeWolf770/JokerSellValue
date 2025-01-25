@@ -1,0 +1,14 @@
+{
+  "id": "JokerSellValue",
+  "name": "JokerSellValue",
+  "prefix": "sell",
+  "author": ["OppositeWolf770"],
+  "description": "Makes all joker cards show their sell value in the hover text while they are in the shop or Buffoon Pack",
+  "priority": 100000,
+  "main_file": "JokerSellValue.lua",
+  "badge_colour": "8b61ad",
+  "version": "1.2.1",
+  "dependencies": ["Steamodded (>=1.0.0~ALPHA-1203b)", "Lovely (>=0.6)"]
+  
+
+}
