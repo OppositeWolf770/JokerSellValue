@@ -1,6 +1,6 @@
 local generate_UIBox_ability_table_ref = Card.generate_UIBox_ability_table
-function Card:generate_UIBox_ability_table()
-    local generate_UIBox_ability_table_val = generate_UIBox_ability_table_ref(self)
+function Card:generate_UIBox_ability_table(vars_only)
+    local generate_UIBox_ability_table_val = generate_UIBox_ability_table_ref(self, vars_only)
 
     if generate_UIBox_ability_table_val == nil then
         return
